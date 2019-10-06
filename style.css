@@ -1,0 +1,99 @@
+body{
+	background-image: url('back.jpg');
+	background-size: cover;
+	background-position: absolute;
+	position: relative;
+	background-repeat: no-repeat;
+}
+#cell0-0{
+	border-bottom: 2px solid black;
+}
+#cell0-1{
+	border-bottom:2px solid black;
+	border-right:2px solid black;
+	border-left:2px solid black;
+}
+#cell0-2{
+	border-bottom: 2px solid black;
+}
+#cell1-0{
+	border-bottom: 2px solid black;
+}
+#cell1-1{
+	border-bottom:2px solid black;
+	border-right:2px solid black;
+	border-left:2px solid black;
+}
+#cell1-2{
+	border-bottom: 2px solid black;
+}
+
+#cell2-1{
+	border-right:2px solid black;
+	border-left:2px solid black;
+}
+.cell{
+	width: 100px;
+	height: 100px;
+	font-size: 3em;
+	padding-left: 40px;
+}
+.board{
+	width: 350px;
+	/*background-image: url('http://bgfons.com/uploads/cardboard/cardboard_texture997.jpg');*/
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	padding: 20px;
+	
+}
+.player{
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 300;
+	margin-top : 0px;
+}
+#wrapper{
+	background-image: url('backboard.jpg');
+	background-size: cover;
+	background-position: center;
+	position:relative;
+	margin-top:5.5em;
+	/*background-image: url('http://bgfons.com/uploads/cardboard/cardboard_texture997.jpg');*/
+	width: 700px;
+	margin-left: 25%;
+	box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+	background-repeat: no-repeat;
+}
+hr{
+	width: 50%;
+}
+.highlight{
+	/*border: 1px solid red;*/
+	background-color: #fc3c42;
+}
+.winner{
+	color: green;
+}
+.play-again{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top : 30px;
+	background-color: #fff;
+	border : 1px solid DodgerBlue;
+	width : 120px;
+	height: 50px;
+	border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    color: DodgerBlue;
+}
+.play-again:hover{
+	background-color: DodgerBlue;
+	color : white;
+    font-style: italic;
+}
